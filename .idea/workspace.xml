@@ -7,18 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eacc443-4eef-4c1d-b82b-1c728d425c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/ImgMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/ImgMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/MyIOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/MyIOHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/TextMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/TextMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/ChatApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/ChatApp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/run.bat" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
