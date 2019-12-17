@@ -6,7 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1eacc443-4eef-4c1d-b82b-1c728d425c31" name="Default Changelist" comment="" />
+    <list default="true" id="1eacc443-4eef-4c1d-b82b-1c728d425c31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/ImgMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/ImgMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/MyIOHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/MyIOHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/TextMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/TextMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/User.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UWWHtvitQFhE2wufgFK1XojHI0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,10 +47,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -52,18 +82,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -76,6 +94,17 @@
       <updated>1575472746710</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1575664040410">

@@ -2,27 +2,25 @@ package de.thm.project.chat;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import javax.swing.JFileChooser;
-import java.io.File;
 
 public class MyIOHandler {
-    private Scanner scanner;
+    // Class attribute
+    private static Scanner scanner = new Scanner(System.in);
 
-    public MyIOHandler() {
-        scanner = new Scanner(System.in);
-    }
-
-    public String readString() {
+    // Method to read a string from the console
+    public static String readString() {
         String line = scanner.nextLine();
         return line;
     }
 
-    public int readInt() {
+    // Method to read a number from the console
+    public static int readInt() {
         int number = Integer.parseInt(scanner.nextLine());
         return number;
     }
 
-    public ArrayList<Integer> readIntegers() {
+    // Method to read multiple numbers separated by a space
+    public static ArrayList<Integer> readIntegers() {
         ArrayList<Integer> numbers = new ArrayList<>();
 
         String line = scanner.nextLine();
@@ -35,14 +33,11 @@ public class MyIOHandler {
         return numbers;
     }
 
-    public String getFileEnding(String path) {
+    // Method to get the file ending of a file
+    public static String getFileEnding(String path) {
         String[] splittedPath = path.split("\\.");
         String ending = splittedPath[splittedPath.length - 1];
 
         return ending;
-    }
-
-    public String getText() {
-        return null;
     }
 }
