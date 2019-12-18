@@ -43,15 +43,40 @@ public class Hamster {
     }
 
     public void turnLeft() {
+        if(this.direction == NORD) {
+            this.direction = WEST;
+        }
+        else {
+            this.direction--;
+        }
         sendMsg("l");
     }
 
     public void goForward() {
+        switch(this.direction) {
+            case NORD:
+                this.row--;
+                break;
+            case OST:
+                this.col++;
+                break;
+            case SUED:
+                this.row++;
+                break;
+            case WEST:
+                this.col--;
+                break;
+        }
         sendMsg("v");
     }
 
     private void sendMsg(String msg) {
-        TextMessage txtMsg = new TextMessage(server, receiver, msg);
-        txtMsg.send(user);
+        try {
+            Thread.sleep(100);
+            TextMessage txtMsg = new TextMessage(server, receiver, msg);
+            txtMsg.send(user);
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
     }
 }

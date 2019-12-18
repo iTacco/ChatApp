@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eacc443-4eef-4c1d-b82b-1c728d425c31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" afterDir="false" />
@@ -18,8 +17,13 @@
       <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/MyIOHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/MyIOHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/TextMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/TextMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Territorium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Territorium.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/AStarAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/AStarAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/Territorium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/Territorium.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

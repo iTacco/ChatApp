@@ -26,7 +26,7 @@ public class Field
     	this.f = f.getF();
     }
     //Empty (default) constructor
-	private Field()
+	public Field()
     {}
     
     // Static-Methods

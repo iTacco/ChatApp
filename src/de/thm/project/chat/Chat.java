@@ -177,35 +177,21 @@ public class Chat {
         Hamster hamster = new Hamster(server, user, hamsterPartner);
         hamster.init();
 
-        getMap();
+        sleep(5000);
 
-        /*TextMessage goMsg = new TextMessage(server, hamsterPartner, "v");
-        goMsg.send(user);*/
+        Territorium territorium = new Territorium(getLatestMsgs());
+
+        AStarAlgorithm algorithm = new AStarAlgorithm(territorium, hamster);
+        algorithm.start();
     }
 
-    private void getMap() {
+    private void sleep(long sleepTime) {
         try {
             // Sleep to wait for the server answer
-            Thread.sleep(1000);
+            Thread.sleep(sleepTime);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        String[] hamsterAnswer = getLatestMsgs();
-        String fullMap = hamsterAnswer[hamsterAnswer.length - 1];
-        fullMap = fullMap.split("territorium: ")[1];
-
-        String[] splittedMap = fullMap.split(" ");
-
-        Territorium territorium = new Territorium(splittedMap);
-        Field corn = Field.getCornField(territorium);
-        if(corn != null) {
-            AStarAlgorithm.aStarAlgorithm(corn);
-        }
-        else {
-            System.out.println("Corn is null!");
-        }
-
     }
 
     // Method to select between sending a text or an image message
