@@ -1,6 +1,10 @@
 package de.thm.project.chat;
 
 import de.thm.oop.chat.base.server.BasicTHMChatServer;
+import de.thm.project.hamster.AStarAlgorithm;
+import de.thm.project.hamster.Field;
+import de.thm.project.hamster.Hamster;
+import de.thm.project.hamster.Territorium;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -146,11 +150,15 @@ public class Chat {
                 break;
             case "3":
                 // get all latesst 100 messages
-                getLatestMsgs();
+                printLatestMsgs(getLatestMsgs());
                 break;
             case "4":
                 // login with a new username and password
                 loginToChat();
+                break;
+            case "5":
+                // start hamster automation chat
+                startHamsterChat();
                 break;
             default:
                 // no correct input symbol
@@ -159,6 +167,45 @@ public class Chat {
         }
 
         return exit;
+    }
+
+    // Method to start the automated chat with the hamster simulator
+    private void startHamsterChat() {
+        // Create the hamster chat partner object
+        User hamsterPartner = new User("hamster19ws");
+
+        Hamster hamster = new Hamster(server, user, hamsterPartner);
+        hamster.init();
+
+        getMap();
+
+        /*TextMessage goMsg = new TextMessage(server, hamsterPartner, "v");
+        goMsg.send(user);*/
+    }
+
+    private void getMap() {
+        try {
+            // Sleep to wait for the server answer
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        String[] hamsterAnswer = getLatestMsgs();
+        String fullMap = hamsterAnswer[hamsterAnswer.length - 1];
+        fullMap = fullMap.split("territorium: ")[1];
+
+        String[] splittedMap = fullMap.split(" ");
+
+        Territorium territorium = new Territorium(splittedMap);
+        Field corn = Field.getCornField(territorium);
+        if(corn != null) {
+            AStarAlgorithm.aStarAlgorithm(corn);
+        }
+        else {
+            System.out.println("Corn is null!");
+        }
+
     }
 
     // Method to select between sending a text or an image message
@@ -239,18 +286,27 @@ public class Chat {
     }
 
     // Method to print the last 100 sent or received messages
-    private void getLatestMsgs() {
+    private String[] getLatestMsgs() {
         try {
             // Try to get latest messages from the server
             String[] msgs = server.getMostRecentMessages(user.getUsername(), user.getPassword());
-            // Print each message
+            return msgs;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private void printLatestMsgs(String[] msgs) {
+        // Print messages
+        if(msgs != null) {
             for(String msg : msgs) {
                 System.out.println(msg);
             }
-            // Press enter to continue
             printPressEnter();
-        } catch (IOException e) {
-            e.printStackTrace();
+        }
+        else {
+            System.out.println("Noch keine Nachrichten :(");
         }
     }
 
@@ -281,6 +337,7 @@ public class Chat {
         System.out.println("[2] Nachricht senden");
         System.out.println("[3] Nachrichten lesen");
         System.out.println("[4] Benutzer wechseln");
+        System.out.println("[5] Automatischen Hamster starten");
         System.out.println("[Q] Chat Programm beenden");
         System.out.print("Ihre Auswahl: ");
     }
