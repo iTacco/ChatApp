@@ -7,23 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1eacc443-4eef-4c1d-b82b-1c728d425c31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Chat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/ImgMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/ImgMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/MyIOHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/MyIOHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/TextMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/TextMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/chat/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Territorium.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatApp/de/thm/project/hamster/Territorium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/AStarAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/AStarAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/Hamster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/thm/project/hamster/Territorium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/hamster/Territorium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klassendiagramm.asta" beforeDir="false" afterPath="$PROJECT_DIR$/klassendiagramm.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/ChatApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/ChatApp.jar" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +40,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
