@@ -8,8 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1eacc443-4eef-4c1d-b82b-1c728d425c31" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/klassendiagramm.asta" beforeDir="false" afterPath="$PROJECT_DIR$/klassendiagramm.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/ChatApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ChatApp_jar/ChatApp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/thm/project/chat/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
